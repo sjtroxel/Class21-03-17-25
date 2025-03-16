@@ -6,13 +6,14 @@ import { ClickCounterComponent } from './click-counter/click-counter.component';
 import { TaskListComponent } from "./task-list/task-list.component";
 import { UserProfileCardComponent } from './user-profile-card/user-profile-card.component';
 import { UserCardComponent } from './user-card/user-card.component';
+import { UserListComponent } from './user-list/user-list.component';
 import { FormsModule } from '@angular/forms';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, QuoteRotatorComponent, ProductListComponent, ClickCounterComponent, TaskListComponent, UserProfileCardComponent, UserCardComponent, FormsModule],
+  imports: [RouterOutlet, QuoteRotatorComponent, ProductListComponent, ClickCounterComponent, TaskListComponent, UserProfileCardComponent, UserCardComponent, UserListComponent, FormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

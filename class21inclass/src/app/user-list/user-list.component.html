@@ -1,0 +1,8 @@
+<div class="user-list">
+  <app-user-card #userCard></app-user-card>
+
+  <!-- Use @for to loop through the array of users -->
+  <button *ngFor="let user of users()" (click)="setUserForCard(userCard, user)">
+    Load Profile: {{ user.name }}
+  </button>
+</div>
