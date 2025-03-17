@@ -1,0 +1,9 @@
+.inactive {
+  background-color: yellow;
+}
+.active {
+  background-color: green;
+}
+.banned {
+  background-color: red;
+}
